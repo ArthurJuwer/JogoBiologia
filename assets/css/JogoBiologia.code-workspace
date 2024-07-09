@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Downloads/imagensNumeros"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JogoBiologia"
+	}
+}
