@@ -3,30 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fases</title>
+    <title>Fases do Jogo</title>
     <link rel="stylesheet" href="/assets/css/fases.css">
 </head>
 <body>
-    <!-- <h1>Fases do Jogo</h1> -->
-    <div class="container-fases">
-        <!-- <h1>Conclua</h1> -->
-        
-        <div class="box-fases">
-            <a href="/pages/fases/fase01.html"><img src="/1.png" alt=""></a>
-        </div>
-        <div class="box-fases close">
-            <a href="/pages/fases/fase02.html"><img src="/cadeado.png" alt=""></a>
-        </div>
-        <div class="box-fases close">
-            <a href="/pages/fases/fase03.html"><img src="/cadeado.png" alt=""></a>
-        </div>
-        <div class="box-fases close">
-            <a href="/pages/fases/fase04.html"><img src="/cadeado.png" alt=""></a>
+    <div class="container">
+        <div class="title-container">
+            <h1>Fases do Jogo</h1>
         </div>
         
-
-        <!-- <a href="/menu.html">Voltar Para Menu Inicial</a> -->
+        <section class="section">
+            <h2 class="section-title">Fases Disponíveis</h2>
+            <div class="fases">
+                <div class="fase">
+                    <a href="/pages/fases/fase01.html">
+                        <img src="/1.png" alt="Fase 1">
+                        <span class="fase-title">Fase 1</span>
+                    </a>
+                </div>
+                <div class="fase locked">
+                    <img src="/cadeado.png" alt="Fase bloqueada">
+                    <span class="fase-title">Fase 2</span>
+                </div>
+                <div class="fase locked">
+                    <img src="/cadeado.png" alt="Fase bloqueada">
+                    <span class="fase-title">Fase 3</span>
+                </div>
+                <div class="fase locked">
+                    <img src="/cadeado.png" alt="Fase bloqueada">
+                    <span class="fase-title">Fase 4</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Missões</h2>
+            <div class="missoes">
+                <div class="missao">
+                    <p>Missão 01: Complete a fase 1</p>
+                </div>
+                <div class="missao">
+                    <p>Missão 02: Alcance a fase 3</p>
+                </div>
+                <div class="missao">
+                    <p>Missão 03: Colete 50 moedas</p>
+                </div>
+                <div class="missao">
+                    <p>Missão 04: Derrote o chefe final</p>
+                </div>
+            </div>
+        </section>
     </div>
-    
 </body>
 </html>

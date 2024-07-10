@@ -1,62 +1,120 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter';
-}
-body{
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(-45deg, #244566, #5a9ecfe3);
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-     
-     
+@font-face {
+    font-family: 'Pixel Emulator';
+    src: url("/assets/fonts/Pixel\ Emulator.otf") format('opentype');
 }
 
-.container-fases{
-    /* height: 25rem; */
-    width: 25rem;
-    background-color: #244566;
-    border: 1px solid #0d1c2a;
-    border-radius: 4px;    
-    display: flex;
-    justify-content: space-between;
-    padding: 2.8rem;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-}
-.box-fases{
-    width: 3.8rem;
-    height: 3.8rem;
-    background-color: #82BAE2; /* cor principal de fundo */
-    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)); /* gradiente linear branco */
-    position: relative; /* permite posicionar elementos filhos relativamente */
-    overflow: hidden; /* garante que o gradiente não se expanda além da caixa */
-    transition: background-color 0.3s ease; /* suaviza a transição da cor de fundo */
-    border: 2px solid rgb(255, 230, 0);
-    border-radius: 6px;
+body {
+    height: 100vh;
+    margin: 0;
+    background: #262525;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    font-size: 1.7rem;
-    
-    
-
-    a{
-        text-decoration: none; 
-        color:#e2e2e2;
-        
-    }
-    img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 35px;
-        height: 35px;
-    }
+    font-family: "Pixel Emulator";
+    color: #fff;
 }
-.close{
-    background: linear-gradient(to bottom right, #cccccc, #999999); /* gradiente linear cinza */
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    text-shadow: -1px -1px 0 #000;
+    font-size: 28px;
+}
+
+.section {
+    background: #393939;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.fases {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fase {
+    width: 150px;
+    height: 150px;
+    background-color: #0077B6;
+    border: 2px solid #005691;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.fase.locked {
+    background: linear-gradient(to bottom right, #cccccc, #999999);
+    cursor: not-allowed;
+}
+
+.fase.locked img {
+    filter: grayscale(100%);
+}
+
+.fase a {
+    text-decoration: none;
+    color: #e2e2e2;
+    text-align: center;
+}
+
+.fase img {
+    width: 70px;
+    height: 70px;
+}
+
+.fase-title {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.missoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.missao {
+    background-color: #0077B6;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #005691;
+    transition: background-color 0.3s ease;
+}
+
+.missao p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.missao:hover {
+    background-color: #005691;
 }
