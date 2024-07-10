@@ -12,35 +12,26 @@ body {
     align-items: center;
     font-family: "Pixel Emulator";
     color: #fff;
+    
 }
 
 .container {
     max-width: 800px;
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
-}
-
-.title-container {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.title-container h1 {
-    text-shadow: -1px -1px 0 #000;
-    font-size: 28px;
 }
 
 .section {
     background: #393939;
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .section-title {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -66,6 +57,10 @@ body {
     position: relative;
     overflow: hidden;
     transition: background-color 0.3s ease;
+}
+.fase:hover{
+    background-color: #005691;
+    cursor: pointer;
 }
 
 .fase.locked {
@@ -117,4 +112,5 @@ body {
 
 .missao:hover {
     background-color: #005691;
+    user-select: none;
 }
