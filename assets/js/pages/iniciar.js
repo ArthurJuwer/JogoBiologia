@@ -10,6 +10,6 @@ if(fase01Concluida === "true"){
     let liberarFase2 = document.querySelector(".fase2");
     liberarFase2.classList.remove("locked");
     liberarFase2.innerHTML = `<a href="/pages/fases/fase01.html">
-    <span class="fase-title">Fase 1</span></a>`
+    <span class="fase-title">Fase 2</span></a>`
 } 
 
