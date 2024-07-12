@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
     tela += 1
     painel.innerHTML = ""
 
-    if(tela == 1){      
+    if(tela == 1){     
+    painel.style.alignItems = "center" 
     painel.innerHTML =  `
     <div class="game-container">
         <h1>Criar Tecido Muscular Cardíaco</h1>
@@ -135,7 +136,8 @@ document.addEventListener("DOMContentLoaded", function () {
             messageHeart.style.color = 'green';
 
             setTimeout(() => {
-                localStorage.setItem('faseConcluida', "true");
+                localStorage.setItem('fase1Concluida', "true");
+                
                 location.href = '/pages/iniciar.html';
             }, 2000)
         } else {

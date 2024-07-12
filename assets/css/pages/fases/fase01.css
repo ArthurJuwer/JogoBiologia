@@ -17,7 +17,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .game-container {
@@ -100,7 +100,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
     font-size: 10pt;
-    margin-top: 400px;
+    /* margin-top: 400px; */
     overflow: hidden; /* Adiciona um comportamento de overflow */
 }
 
@@ -123,15 +123,14 @@ body {
 
 #médico{
     height: 300px;
-    position: absolute;
-    left: 800px;
-    top: 152px;
+    margin-right: 7%;
 }
 
 #avançar{
     width: 6rem;
     font-family: Pixel Emulator;
     font-size: 12px;
+    margin-right: 9% ;
 
 }
 
@@ -139,6 +138,7 @@ body {
     width: 6rem;
     font-family: Pixel Emulator;
     font-size: 12px;
+    margin-right: 9% ;
 }
 
 #miocardiopatia {

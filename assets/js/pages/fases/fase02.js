@@ -22,7 +22,8 @@ function avançar2(){
     tela += 1
     painel.innerHTML = ""
 
-    if(tela == 1){      
+    if(tela == 1){    
+    painel.style.alignItems = "center"  
     painel.innerHTML =  
     `
     <div class="game-container">
@@ -137,6 +138,7 @@ function avançar2(){
         }
 
         setTimeout(() => {
+            localStorage.setItem('fase2Concluida', "true");
             location.href = '/pages/iniciar.html';
         }, 2000)
     }
