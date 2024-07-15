@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Informe um numero: </label>
+    <input type="text" id="numero">
+    <button onclick="acessar()">OK</button>
+    <br>
+    <br>
+    <p>A tabuada desse numero é: </p>
+    <br>
+    <div id="tabuada">
+
+    </div>
+    <script>
+        
+        
+        function acessar(){
+            var numero = document.getElementById("numero").value
+            numero = Number(numero)
+
+            var tabuada = document.getElementById("tabuada")
+            var tabuadaText = '<ul>'
+            for(var i = 0; i <= 10; i++){
+                //alert(`${i} x ${numero} = ${i * numero}`)  
+                tabuadaText += `<li>${i} x ${numero} = ${i * numero}</li>`
+
+            }
+            tabuadaText += '</ul>'
+            tabuada.innerHTML = tabuadaText
+        }
+    </script>
+</body>
+</html>
