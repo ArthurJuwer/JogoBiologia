@@ -2,11 +2,6 @@
     font-family: 'Pixel Emulator';
     src: url("/assets/fonts/Pixel\ Emulator.otf") format('opentype');
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 body{
     height: 100vh;
     display: flex;
@@ -19,7 +14,7 @@ body{
     color: #68afe1;
 }
 .title-sobre{
-    margin-top: 3rem;
+    margin-top: 3rem !important;
 }
 h2{
     margin: 0.5rem 0rem 2rem;

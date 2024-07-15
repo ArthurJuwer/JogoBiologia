@@ -2,11 +2,6 @@
     font-family: 'Pixel Emulator';
     src: url("/assets/fonts/Pixel\ Emulator.otf") format('opentype');
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 body{
     height: 100vh;
     display: flex;

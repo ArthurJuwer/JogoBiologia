@@ -42,16 +42,16 @@ body {
 }
 
 .dropzone2{
-        width: 350px;
-        height: 200px;
-        margin: 20px auto;
-        border: 2px dashed #ccc;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #e9ecef;
-        background-image: url('/assets/images/heart.png');
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    background-image: url('/assets/images/heart.png');
 }
 
 .components {
@@ -128,17 +128,20 @@ body {
 
 #avançar{
     width: 6rem;
+    padding: 5px;
     font-family: Pixel Emulator;
     font-size: 12px;
-    margin-right: 9% ;
+    margin-right: 10%;
+
 
 }
 
 #avançar2{
     width: 6rem;
+    padding: 5px;
     font-family: Pixel Emulator;
     font-size: 12px;
-    margin-right: 9% ;
+    margin-right: 10%;
 }
 
 #miocardiopatia {
