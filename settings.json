@@ -1,0 +1,6 @@
+{
+    "github-pages.deployOnSave": true,
+    "github-pages.branch": "gh-pages",
+    "github-pages.buildCommand": "npm run build",
+    "github-pages.publishDir": "build"
+}
