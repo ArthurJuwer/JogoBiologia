@@ -1,9 +1,29 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const textoElement = document.getElementById('texto');
+  const texto = textoElement.textContent;
+  textoElement.textContent = '';
+  let i = 0;
+
+  function typeWriter() {
+      if (i < texto.length) {
+          textoElement.textContent += texto.charAt(i);
+          i++;
+          setTimeout(typeWriter, 30);
+      }
+  }
+
+  typeWriter();
+});
+
 let tela = 0
 let acertos = 0
 function mudarContainer(){
   let painel = document.querySelector(".painel")
   tela+= 1
   if(tela == 1){  
+    painel.style.alignItems = "initial";
+    painel.style.rowGap = "0px";
+    
     painel.innerHTML = 
     `
       <div class="painel-qst">

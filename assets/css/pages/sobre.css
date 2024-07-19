@@ -16,6 +16,10 @@ body{
 .title-sobre{
     margin-top: 3rem !important;
 }
+.historia{
+    width: 70%;
+    text-align: center;
+}
 h2{
     margin: 0.5rem 0rem 2rem;
 }
@@ -24,6 +28,8 @@ h2{
     display: flex;
     flex-direction: column;
     row-gap: 2.5rem;
+    text-align: center;
+    align-items: center;
 }
 .box-sobre{
     display: flex;

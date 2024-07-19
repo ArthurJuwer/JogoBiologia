@@ -12,12 +12,17 @@
     margin: 0;
     background-color: #f4f4f9;
   }
-  
+  .painel{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 20px;
+
+  }
   .painel-tl{
     display: flex;
     justify-content: space-evenly;  
-  
-  
+    width: 100%;
   }
   
   .game-container {
@@ -124,11 +129,10 @@
   }
   
   #avançar{
-    position: absolute;
-    top: 608px;
-    left: 1070px;
+    width: 90px;
     font-family: Pixel Emulator;
     font-size: 12px;
+    margin-right: 10.5%;
   }
   
   #avançar2{

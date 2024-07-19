@@ -29,8 +29,8 @@ body {
 }
 
 .dropzone {
-    width: 350px;
-    height: 200px;
+    width: 60%;
+    height: 225px;
     margin: 20px auto;
     border: 2px dashed #ccc;
     border-radius: 10px;
@@ -57,7 +57,7 @@ body {
 .components {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    
 }
 
 .component {
@@ -68,6 +68,7 @@ body {
     cursor: pointer;
     user-select: none;
     font-size: 10pt;
+    margin: 4px 4px;
 }
 
 #message-assembly, #message-heart {
@@ -78,10 +79,12 @@ body {
 #check-assembly{
     font-family: 'Pixel Emulator';
     margin-top: 12px;
+    padding: 5px;
 }
 
 #check-heart{
     font-family: 'Pixel Emulator';
+    padding: 5px;
 }
 
 #imgheart{
