@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Pixel Emulator';
     src: url("../../fonts/Pixel\ Emulator.otf") format('opentype');
-
 }
 body{
     height: 100vh;
