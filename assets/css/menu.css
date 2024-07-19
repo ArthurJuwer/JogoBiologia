@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Pixel Emulator';
-    src: url("assets/fonts/Pixel\ Emulator.otf") format('opentype');
+    src: url("/assets/fonts/Pixel\ Emulator.otf") format('opentype');
   }
   
   body {
@@ -87,5 +87,5 @@
   
   @font-face {
     font-family: 'Game';
-    src: url(assets/fonts/MMRock9.otf);
+    src: url(/assets/fonts/MMRock9.otf);
   }
