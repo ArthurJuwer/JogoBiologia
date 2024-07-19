@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fases do Jogo</title>
-    <link rel="stylesheet" href="assets/css/pages/iniciar.css">
-    <link rel="stylesheet" href="assets/css/components/dialog.css">
-    <script src="assets/js/components/dialog.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/pages/iniciar.css">
+    <link rel="stylesheet" href="../assets/css/components/dialog.css">
+    <script src="../assets/js/components/dialog.js" defer></script>
 </head>
 <body>
     <img id="option" src="assets/images/openMenu.png" onclick="abrirDialog()" alt="">
@@ -15,7 +15,7 @@
         <div id="botoes" >
 
         <button><a href="index.html">Início</a></button> 
-        <button><a href="pages/iniciar.html">Fases</a></button>
+        <button><a href="../pages/iniciar.html">Fases</a></button>
         <button onclick="fecharDialog()">Continuar</button>
     </div>
     </dialog>
@@ -23,20 +23,20 @@
         <section class="section">
             <h2 class="section-title">Fases Disponíveis</h2>
             <div class="fases">
-                <a href="pages/fases/fase01.html">
+                <a href="../pages/fases/fase01.html">
                     <div class="fase">
                             <span class="fase-title">Fase 1</span>
                     </div>
                 </a>
                 <a class ="fase2A" href="">
                 <div class="fase fase2 locked">
-                    <img src="assets/images/cadeado.png" alt="Fase bloqueada">
+                    <img src="../assets/images/cadeado.png" alt="Fase bloqueada">
                     <span class="fase-title">Fase 2</span>
                 </div>
                 </a>
                 <a class ="fase3A" href="">
                     <div class="fase fase3 locked">
-                        <img src="assets/images/cadeado.png" alt="Fase bloqueada">
+                        <img src="../assets/images/cadeado.png" alt="Fase bloqueada">
                         <span class="fase-title">Fase 3</span>
                     </div>
                 </a>
@@ -62,6 +62,6 @@
         </section>
     </div>
     
-    <script src="assets/js/pages/iniciar.js"></script>
+    <script src="../assets/js/pages/iniciar.js"></script>
 </body>
 </html>
