@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(() => {
                 localStorage.setItem('fase1Concluida', "true");
                 
-                location.href = '../pages/iniciar.html';
+                location.href = '/JogoBiologia/pages/iniciar.html';
             }, 2000)
         } else {
             messageHeart.textContent = 'O tecido ainda não está completo. Crie o tecido primeiro antes de implantá-lo.';

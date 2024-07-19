@@ -139,7 +139,7 @@ function avançar2(){
 
         setTimeout(() => {
             localStorage.setItem('fase2Concluida', "true");
-            location.href = '../pages/iniciar.html';
+            location.href = '/JogoBiologia/pages/iniciar.html';
         }, 2000)
     }
     }

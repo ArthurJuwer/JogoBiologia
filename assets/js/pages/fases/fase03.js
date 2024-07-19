@@ -102,7 +102,7 @@ function mudarContainer(){
       localStorage.setItem('acertos3', "true");
     }
     localStorage.setItem('fase3Concluida', "true");
-    location.href = '../pages/iniciar.html';
+    location.href = '/JogoBiologia/pages/iniciar.html';
 }
  
 }
