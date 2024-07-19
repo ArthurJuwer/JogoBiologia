@@ -14,7 +14,7 @@ if(fase01Concluida === "true"){
     missao1.innerHTML = `<p style="font-size: 30px">✔</p>`
 
 
-    liberarFase2Link.href="/pages/fases/fase02.html"
+    liberarFase2Link.href="../pages/fases/fase02.html"
     liberarFase2.classList.remove("locked");
     liberarFase2.innerHTML = `<span class="fase-title">Fase 2</span>`
 } 
@@ -30,7 +30,7 @@ if(fase02Concluida === "true"){
 
     let liberarFase3 = document.querySelector(".fase3");
     liberarFase3.classList.remove("locked");
-    liberarFase3.innerHTML = `<a href="pages/fases/fase03.html">
+    liberarFase3.innerHTML = `<a href="../pages/fases/fase03.html">
     <span class="fase-title">Fase 3</span></a>`
 } 
 if(fase03Concluida === "true"){
