@@ -11,8 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Pixel Emulator";
-    color: #fff;
-    
+    color: #fff;    
 }
 a{
     text-decoration: none;
@@ -22,7 +21,6 @@ a{
 .container {
     max-width: 800px;
     width: 100%;
-    /* padding: 20px; */
     box-sizing: border-box;
 }
 
@@ -120,4 +118,19 @@ a{
 .missao:hover {
     background-color: #005691;
     user-select: none;
+}
+
+@media (max-width: 700px) {
+    .container{
+        width: 95%;
+    }
+    .fase{
+        width: 90px;
+        height: 90px;
+    }
+    div.locked {
+        .fase-title{
+            display: none;
+        }
+      }
 }

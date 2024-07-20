@@ -2,7 +2,7 @@
     font-family: 'Pixel Emulator';
     src: url("../../fonts/Pixel\ Emulator.otf") format('opentype');
 }
-body{
+body {
     height: 100vh;
     display: flex;
     text-align: center;
@@ -13,46 +13,70 @@ body{
     font-family: 'Pixel Emulator', sans-serif;
     color: #68afe1;
 }
-.title-sobre{
-    margin-top: 3rem !important;
+.title-sobre {
+    margin-top: 4rem !important;
 }
-.historia{
+.historia {
     width: 70%;
     text-align: center;
 }
-h2{
+h2 {
     margin: 0.5rem 0rem 2rem;
 }
 
-.container-sobre{
+.container-sobre {
     display: flex;
     flex-direction: column;
     row-gap: 2.5rem;
     text-align: center;
     align-items: center;
 }
-.box-sobre{
+.box-sobre {
     display: flex;
-    width: 800px;
-    height: 200px;
-    padding: 20px;
+    width: 50rem; 
+    height: 12.5rem; 
+    padding: 1.25rem; 
     border-radius: 1rem;
     background: white;
-
 }
-.box-sobre-img{
+.box-sobre-img {
     height: 100%;
-    width: 800px;
-    border-radius: 12px;
+    width: 50rem; 
+    border-radius: 0.75rem; 
     background: #262525;
 }
-.box-sobre-texto{
+.box-sobre-texto {
     display: flex;
     flex-direction: column;
     text-align: left;
-    row-gap: 20px;
+    row-gap: 1.25rem; 
     margin-left: 2rem;
 }
-.box-sobre-texto-paragrafo{
+.box-sobre-texto-paragrafo {
     font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+    .container-sobre{
+        row-gap: 1.5rem;
+        width: 100%;
+    }
+    .box-sobre{
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .box-sobre-texto{
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+    }
+    .box-sobre-texto-titulo{
+        text-align: center;
+    }
+    .box-sobre-texto-paragrafo{
+        text-align: justify;
+        width: 90%;
+    }
+
 }

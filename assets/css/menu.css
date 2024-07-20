@@ -14,14 +14,6 @@
     user-select: none;
   }
   
-  :root {
-    --cor1: #82BAE2;
-    --cor2: #5A9FCF;
-    --cor3: #4D8CB9;
-    --cor4: #E28A82;
-    --cor5: #F2F2F2;
-    --cor6: #2F4F70;
-  }
   
   .title-container {
     text-align: center;
@@ -67,9 +59,10 @@
     padding: 14px;
     margin: 10px 0;
     text-decoration: none;
-    color: var(--cor5); /* Ajuste a cor conforme necessário */
+    color: #F2F2F2; /* Ajuste a cor conforme necessário */
     font-size: 20px;
     text-align: center;
+    max-width: 80%;
   }
   
   .emoji {
@@ -87,5 +80,5 @@
   
   @font-face {
     font-family: 'Game';
-    src: url(../assets/fonts/MMRock9.otf);
+    src: url('../assets/fonts/MMRock9.otf');
   }
