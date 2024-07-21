@@ -414,5 +414,29 @@
       display: none;
     }
   }
+
+@media (max-width: 700px) {
+  h1{
+    margin: 0px 10px;
+  }
+  .painel-tl{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.25rem;
+  }
+  #avançar{
+    margin-right: 15%;
+  }
+  .container{
+    width: 90%;
+  }
+  .box-resposta input{
+    padding-left: 1.2rem;
+    height: 100px;
+    white-space: pre-wrap; 
+    overflow-wrap: break-word; 
+  }
+}
   
   

@@ -123,6 +123,7 @@ a{
 @media (max-width: 700px) {
     .container{
         width: 95%;
+        margin-top: 1.5rem;
     }
     .fase{
         width: 90px;
