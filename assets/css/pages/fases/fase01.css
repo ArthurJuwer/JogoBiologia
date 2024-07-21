@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
     background-color: #f4f4f9;
 }
 
@@ -51,7 +50,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #e9ecef;
-    background-image: url('/assets/images/heart.png');
 }
 
 .components {
@@ -98,7 +96,6 @@ body {
     padding: 15px;
     width: 80%;
     margin: 50px auto;
-    font-family: 'Pixel Emulator', sans-serif;
     color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -183,6 +180,9 @@ body {
         width: 90%;
     }
     .dropzone{
+        width: 100%;
+    }
+    .dropzone2{
         width: 100%;
     }
     .components{

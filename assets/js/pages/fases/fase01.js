@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="component" draggable="true" id="tissue">Miocárdio</div>
         </div>
         <div class="dropzone2" id="heart-zone">
-            <img src="/assets/images/heart.png" alt="" id="imgheart">
+            <img src="/JogoBiologia/assets/images/coracao.png" alt="" id="imgheart">
         </div>
         <button id="check-heart">Verificar</button>
         <div id="message-heart"></div>
