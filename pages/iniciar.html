@@ -6,18 +6,19 @@
     <title>Fases do Jogo</title>
     <link rel="stylesheet" href="../assets/css/pages/iniciar.css">
     <link rel="stylesheet" href="../assets/css/components/dialog.css">
+    <link rel="shortcut icon" href="/JogoBiologia/assets/images/médico.webp" type="image/x-icon">
     <script src="../assets/js/components/dialog.js" defer></script>
+    <script src="../assets/js/pages/iniciar.js" defer></script>
 </head>
 <body>
-    <img id="option" src="../assets/images/openMenu.png" onclick="abrirDialog()" alt="">
+    <img id="option" src="../assets/images/openMenu.webp" onclick="abrirDialog()" alt="">
     <dialog>
         <h1 class="dialog-title">CONFIGURAÇÕES</h1>
-        <div id="botoes" >
-
-        <button><a href="/JogoBiologia/index.html">Início</a></button> 
-        <button><a href="../pages/iniciar.html">Fases</a></button>
-        <button onclick="fecharDialog()">Continuar</button>
-    </div>
+        <div id="botoes">
+            <button><a href="/JogoBiologia/index.html">Início</a></button> 
+            <button><a href="../pages/iniciar.html">Fases</a></button>
+            <button onclick="fecharDialog()">Continuar</button>
+        </div>
     </dialog>
     <div class="container">        
         <section class="section">
@@ -30,13 +31,13 @@
                 </a>
                 <a class ="fase2A" href="">
                 <div class="fase fase2 locked">
-                    <img src="../assets/images/cadeado.png" alt="Fase bloqueada">
+                    <img src="../assets/images/cadeado.webp" alt="Fase bloqueada">
                     <span class="fase-title">Fase 2</span>
                 </div>
                 </a>
                 <a class ="fase3A" href="">
                     <div class="fase fase3 locked">
-                        <img src="../assets/images/cadeado.png" alt="Fase bloqueada">
+                        <img src="../assets/images/cadeado.webp" alt="Fase bloqueada">
                         <span class="fase-title">Fase 3</span>
                     </div>
                 </a>
@@ -61,7 +62,5 @@
             </div>
         </section>
     </div>
-    
-    <script src="../assets/js/pages/iniciar.js"></script>
 </body>
 </html>

@@ -1,84 +1,81 @@
-
 @font-face {
-    font-family: 'Pixel Emulator';
-    src: url("../fonts/Pixel\ Emulator.otf") format('opentype');
-  }
-  
-  body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: #262525;
-    font-family: 'Pixel Emulator', sans-serif;
-    user-select: none;
-  }
-  
-  
-  .title-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .menu-container {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #title {
-    color: #fff;
-    text-shadow: -1px -1px 0 #000;
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .opcao:hover {
-    transform: scale(1.2);
-    background-color: #4D8CB9;
-    box-shadow: 1px 1px 15px #81bafc;
-  }
-  
-  .opcao {
-    position: relative;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    transition: 0.4s;
-    text-shadow: -1px -1px 0 #000;
-    background-color: #59A2F3;
-    width: 350px;
-    border: solid 2px #F2F2F2;
-    border-radius: 6px 0px;
-    padding: 14px;
-    margin: 10px 0;
-    text-decoration: none;
-    color: #F2F2F2; /* Ajuste a cor conforme necessário */
-    font-size: 20px;
-    text-align: center;
-    max-width: 80%;
-  }
-  
-  .emoji {
-    font-family: 'Game';
-    position: absolute;
-    left: 10px; /* Ajuste conforme necessário */
-    font-size: 24px; /* Aumenta o tamanho do emoji */
-  }
-  
-  #joga {
-    position: absolute;
-    font-size: 27px;
-    top: 6px;
-  }
-  
-  @font-face {
-    font-family: 'Game';
-    src: url('../assets/fonts/MMRock9.otf');
-  }
+  font-family: 'Pixel Emulator';
+  src: url("../fonts/Pixel\ Emulator.otf") format('opentype');
+}
+@font-face {
+  font-family: 'Game';
+  src: url('/JogoBiologia/assets/fonts/MMRock9.otf');
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #262525;
+  font-family: 'Pixel Emulator', sans-serif;
+  user-select: none;
+}
+
+.title-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.menu-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  color: #fff;
+  text-shadow: -1px -1px 0 #000;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opcao:hover {
+  transform: scale(1.2);
+  background-color: #4D8CB9;
+  box-shadow: 1px 1px 15px #81bafc;
+}
+
+.opcao {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  text-shadow: -1px -1px 0 #000;
+  background-color: #59A2F3;
+  width: 350px;
+  border: solid 2px #F2F2F2;
+  border-radius: 6px 0px;
+  padding: 14px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #F2F2F2;
+  font-size: 20px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.emoji {
+  font-family: 'Game';
+  position: absolute;
+  left: 10px;
+  font-size: 24px;
+}
+
+#joga {
+  position: absolute;
+  font-size: 27px;
+  top: 6px;
+}
+

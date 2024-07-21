@@ -12,6 +12,52 @@ body {
   background-color: #f4f4f9;
 }
 
+.painel{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#médico{
+  height: 300px;
+  margin-right: 7%;
+}
+#explicacao {
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  width: 80%;
+  margin: 50px auto;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-size: 10pt;
+  /* margin-top: 400px; */
+  overflow: hidden; /* Adiciona um comportamento de overflow */
+}
+
+#explicacao::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #f0f0f0;
+}
+
+#avançar2{
+  width: 6rem;
+  padding: 5px;
+  font-family: Pixel Emulator;
+  font-size: 12px;
+  margin-right: 10%;
+}
+
 .game-container {
   text-align: center;
   background-color: white;
@@ -59,6 +105,7 @@ body {
   cursor: pointer;
   user-select: none;
   font-size: 10pt;
+  margin: 4px;
 }
 
 #message-assembly, #message-muscle {
@@ -69,6 +116,7 @@ body {
 #check-assembly{
   font-family: 'Pixel Emulator';
   margin-top: 12px;
+  padding: 5px;
 }
 
 #check-muscle{

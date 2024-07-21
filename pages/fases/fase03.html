@@ -7,31 +7,30 @@
     <title>FASE #03</title>
     <link rel="stylesheet" href="/JogoBiologia/assets/css/pages/fases/fase03.css">
     <link rel="stylesheet" href="/JogoBiologia/assets/css/components/dialog.css">
+    <link rel="shortcut icon" href="/JogoBiologia/assets/images/médico.webp" type="image/x-icon">
     <script src="/JogoBiologia/assets/js/components/dialog.js" defer></script>
+    <script src="/JogoBiologia/assets/js/pages/fases/fase03.js" defer></script>
 </head>
 <body>
-    <img id="option" src="/JogoBiologia/assets/images/openMenu.png" onclick="abrirDialog()" alt="">
+    <img id="option" src="/JogoBiologia/assets/images/openMenu.webp" onclick="abrirDialog()" alt="">
     <dialog>
         <h1 class="dialog-title">CONFIGURAÇÕES</h1>
-        <div id="botoes" >
-
-        <button><a href="/JogoBiologia/index.html">Início</a></button>  
-        <button><a href="/JogoBiologia/pages/iniciar.html">Fases</a></button>
-        <button onclick="fecharDialog()">Continuar</button>
-    </div>
+        <div id="botoes">
+            <button><a href="/JogoBiologia/index.html">Início</a></button>  
+            <button><a href="/JogoBiologia/pages/iniciar.html">Fases</a></button>
+            <button onclick="fecharDialog()">Continuar</button>
+        </div>
     </dialog>
     <section class="painel">
         <div class="painel-tl">
-            <img src="/JogoBiologia/assets/images/telefone.png" alt="" id="médico">
+            <img src="/JogoBiologia/assets/images/telefone.webp" alt="" id="médico">
             <div id="explicacao">
                 <span id="texto">
                     Aloo!! Meu amigo esta apresentando fraqueza muscular progressiva e quedas frequentes. Suspeitamos de distrofia muscular. Gostaria de fazer algumas perguntas para você para saber se ele pode estar com algo relacionado. </span>
             </div>
             <br>
-            
         </div>
-        <input type="button" value="Avançar" id="avançar" onclick="mudarContainer()">
-        <script src="/JogoBiologia/assets/js/pages/fases/fase03.js"></script>
+        <input type="button" value="Avançar" id="avançar" onclick="mudarContainer()">      
     </section>
 </body>
 </html>

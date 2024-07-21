@@ -2,7 +2,6 @@
     font-family: 'Pixel Emulator';
     src: url("../../fonts/Pixel\ Emulator.otf") format('opentype');
 }
-
 body {
     height: 100vh;
     background: #262525;
@@ -16,20 +15,17 @@ a{
     text-decoration: none;
     color: white;
 }
-
 .container {
     max-width: 800px;
     width: 100%;
     box-sizing: border-box;
 }
-
 .section {
     background: #393939;
     border-radius: 10px;
     padding: 20px;
     margin-top: 15px;
 }
-
 .section-title {
     font-size: 24px;
     margin-bottom: 30px;
@@ -69,10 +65,6 @@ a{
     cursor: not-allowed;
 }
 
-.fase.locked img {
-    filter: grayscale(100%);
-}
-
 .fase a {
     text-decoration: none;
     color: #e2e2e2;
@@ -85,7 +77,6 @@ a{
 }
 
 .fase-title {
-    /* margin-top: 10px; */
     font-size: 16px;
     text-align: center;
 }
@@ -109,7 +100,7 @@ a{
 
 .missao p {
     margin: 0;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
     text-align: center;
 }
@@ -132,5 +123,5 @@ a{
         .fase-title{
             display: none;
         }
-      }
+    }
 }

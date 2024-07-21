@@ -7,28 +7,26 @@
     <title>Fase #01</title>
     <link rel="stylesheet" href="/JogoBiologia/assets/css/pages/fases/fase01.css">
     <link rel="stylesheet" href="/JogoBiologia/assets/css/components/dialog.css">
+    <link rel="shortcut icon" href="/JogoBiologia/assets/images/médico.webp" type="image/x-icon">
     <script src="/JogoBiologia/assets/js/components/dialog.js" defer></script>
+    <script src="/JogoBiologia/assets/js/pages/fases/fase01.js" defer></script>
 </head>
 <body>
-    <img id="option" src="/JogoBiologia/assets/images/openMenu.png" onclick="abrirDialog()" alt="">
+    <img id="option" src="/JogoBiologia/assets/images/openMenu.webp" onclick="abrirDialog()" alt="">
     <dialog>
         <h1 class="dialog-title">CONFIGURAÇÕES</h1>
         <div id="botoes">
-
-        <button><a href="/JogoBiologia/index.html">Início</a></button> 
-        <button><a href="/JogoBiologia/pages/iniciar.html">Fases</a></button>
-        <button onclick="fecharDialog()">Continuar</button>
-    </div>
+            <button><a href="/JogoBiologia/index.html">Início</a></button> 
+            <button><a href="/JogoBiologia/pages/iniciar.html">Fases</a></button>
+            <button onclick="fecharDialog()">Continuar</button>
+        </div>
     </dialog>
     <section class="painel">
-        <img src="/JogoBiologia/assets/images/médico.png" alt="" id="médico">
+        <img src="/JogoBiologia/assets/images/médico.webp" alt="" id="médico">
         <div id="explicacao">
             <span id="texto">Olá! Você deve ser o novo médico, deixa eu te dar uma breve explicação sobre o tecido muscular cardíaco, pra você se ligar o que vai ter que fazer lá dentro da sala de cirurgia. Também conhecido como miocárdio, o tecido muscular cardíaco desempenha um papel vital na função cardiovascular, sendo responsável pela contração rítmica e contínua que bombeia o sangue por todo o corpo. Ele é composto por células alongadas e ramificadas chamadas cardiomiócitos, que possuem um ou dois núcleos. Essas células apresentam estriações, devido à disposição organizada dos filamentos de actina e miosina. Os cardiomiócitos estão interconectados por discos intercalados, estruturas que contêm junções gap e desmossomos. Esses discos são fundamentais para a transmissão rápida de sinais elétricos e para a coesão mecânica entre as células, garantindo que todas as células cardíacas se contraiam quase simultaneamente. Agora vá lá e ajude o nosso paciente!</span>
         </div>
         <input type="button" value="Avançar" id="avançar" onclick="avançar()">
     </section>
-    
-
-    <script src="/JogoBiologia/assets/js/pages/fases/fase01.js" defer></script>
 </body>
 </html>
